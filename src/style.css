@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply min-h-screen w-full bg-white font-sans
+    }
+}
+
+@layer components {
+    .grid-layout {
+        @apply grid place-items-center
+    }
+
+    .flex-center {
+        @apply flex justify-center items-center
+    }
+}
